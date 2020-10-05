@@ -1,0 +1,45 @@
+.profile{
+    background-color: white;
+    border-top: 10px solid #2ecc71;
+    border-bottom: 10px solid #2ecc71;
+    border-left: 1px solid #2ecc71;
+    border-right: 1px solid #2ecc71;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 600px;
+
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #2ecc71;
+
+    margin-top: -100px;
+}
+
+.profile-explain{
+    list-style: none;
+    color: #7f8c8d;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.introduce{
+    text-align: center;
+}
+
+.hobby{
+    text-align: center;
+}
+
+.hobby-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #2ecc71;
+}
