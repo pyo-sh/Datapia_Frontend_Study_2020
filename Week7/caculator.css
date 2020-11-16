@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .Wrap{
+    width: 350px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .Title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 50px;
+  }
+    .Title-Name{
+      margin: 0px 40px 0px 0px;
+    }
+
+  .Instruction{
+    width: 315px;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .Main li{
+    list-style: none;
+    width: 340px;
+    margin: 5px;
+    padding: 0px;
+  }
+    .Main button{
+      width: 70px;
+      height: 60px;
+      margin: 5px;
+    }
+    .Main-Needpad-Button{
+      margin: 5px 92.5px 5px 90px !important;
+    }
+    .Main-Enter{
+      width: 242.5px !important;
+    }
+
+  .Modal-Wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  .Modal {
+    background: white;
+    padding: 24px 16px;
+    border-radius: 4px;
+    width: 320px;
+  }
+  .Modal-Title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .Close-Wrapper {
+    text-align: right;
+  }
+  .Modal-Result{
+    text-align: right;
+    font-size: 16px;
+  }

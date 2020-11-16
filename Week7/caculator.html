@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Caculator</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="caculator.css">
+  </head>
+
+  <body>
+    <div class="Wrap">
+      <div class="Title">
+          <h1 class="Title-Name">계산기</h1>
+          <button id="open">History</button>
+      </div>
+      <input class="Instruction"/>
+      <div class="Main" id="Main-Buttons">
+        <li>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button> % </button>
+        </li>
+        <li>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button> * </button>
+        </li>
+        <li>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button> - </button>
+        </li>
+        <li>
+          <button class="Main-Needpad-Button">0</button>
+          <button> + </button>
+        </li>
+        <li>
+          <button class="Main-Enter">Enter</button>
+          <button>←</button>
+        </li>
+      </div>
+    </div>
+    <div class="Modal-Wrapper">
+      <div class="Modal">
+        <div class="Modal-Title">History</div>
+        <hr/>
+        <div class="Modal-Result"></div>
+        <div class="Close-Wrapper">
+          <button id="close">닫기</button>
+        </div>
+      </div>
+    </div>
+    <script src="./caculator.js"></script>
+  </body>
+</html>
