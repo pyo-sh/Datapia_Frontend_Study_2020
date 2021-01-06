@@ -35,7 +35,7 @@ const click_Delete_Button = (event) => {
         }
         else{
             value = content.children[0].value;
-            content.innerHTML = value;
+            content.innerHTML = input.value;
             content.className = "list-updated";
         }
     }
