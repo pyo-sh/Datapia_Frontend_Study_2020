@@ -68,20 +68,20 @@ const buttonChange = (text) => {
 
 // 홈페이지 loading 시 한 번만 실행하자~
 // 단어 불러오기
-const getWords = () => {
-    axios.get('https://random-word-api.herokuapp.com/word?number=100')
-    .then((response) => {
+const getWords = async () => {
+    try{
+        const url = 'https://random-word-api.herokuapp.com/word?number=100';
+        const response = await axios.get(url);
         response.data.forEach(word => {
             if(word.length < 10){
                 words.push(word);
             }
-        });   
+        });
         buttonChange('게임시작');
-    })
-    .catch((error) => {
-        // handle error
-        console.log(error);
-    })
+    }
+    catch (error){
+        console.error(error);
+    }
 }
 const init = () => {
     // 게임에 사용할 단어를 api에서 불러온다
